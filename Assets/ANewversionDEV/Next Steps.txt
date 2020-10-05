@@ -1,0 +1,9 @@
+
+Overall add the ads system and ads to reward pervideo in exchange for points.
+
+Add Sounds to all levels.
+
+Add Additional Rewards.
+
+Check Rank Leaderboard Rank API and display Rank via leaderboard.
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+  <credit type="title" data="Guatecate Development and Productions Team" data2="" />
+  <credit type="singlecolumn" data="(Main Developer - Nathaniel Frank B.)" data2="" />
+  <credit type="singlecolumn" data="(Secondary Developer - Gonzo)" data2="" />
+  <credit type="space" data="1" data2="" />
+  <credit type="twocolumns" data="Multiplayer Integration" data2="Pun2" />
+  <credit type="twocolumns" data="Data System Integration" data2="GameJolt API" />
+  <credit type="twocolumns" data="Sound Clip" data2="Open Souorce Facebook Sound Clips" />
+  <credit type="twocolumns" data="Texture" data2="Gloogle OpenSource Texture" />
+  <credit type="twocolumns" data="Music" data2="Freemusicarchive.org" />
+  <credit type="twocolumns" data="Music" data2="Credit's Music Provided by ((Ketsa) - (Seeing you again))" />
+  <credit type="twocolumns" data="Texture" data2="http://www.clker.com/" />
+  <credit type="space" data="2" data2="" />
+  <credit type="texture" data="creditsTextureExample" data2="" />
+  <credit type="space" data="2" data2="" />
+  <credit type="title" data="Special Thanks to" data2="" />
+  <credit type="singlecolumn" data="Everyone!" data2="" />
+</credits>
