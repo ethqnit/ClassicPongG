@@ -3437,16 +3437,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Resumer: {fileID: 25848867}
-  zoneIds:
-  - vz92e0e981cd9242f9a8
-  zoneIds2:
-  - vz92e0e981cd9242f9a8
-  APP_ID: appdc686f4772ed4d6bbc
-  zoneIdsIOS:
-  - vzddc535a453b64bb494
-  zoneIds2IOS:
-  - vzc9149621c2014b868c
-  APP_IDIOS: app0185cdfd437c4d14ac
 --- !u!4 &1020538370
 Transform:
   m_ObjectHideFlags: 0
