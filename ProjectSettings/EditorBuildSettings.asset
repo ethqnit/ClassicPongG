@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/ANewversionDEV/Scene/MainMenu.unity
     guid: 44fe836825243f64b814c90f90e34978
   - enabled: 1
+    path: Assets/ANewversionDEV/Scene/Avatar.unity
+    guid: 239e7cd02dc5fab4f90cae180094cd8b
+  - enabled: 1
     path: Assets/ANewversionDEV/Scene/GameScene.unity
     guid: 427b998196379de4182627dc7fc705a8
   - enabled: 1
     path: Assets/ANewversionDEV/Scene/Multiplayer.unity
     guid: 12f301c84b70cb34fa7f272c5080e66a
-  - enabled: 1
-    path: Assets/ANewversionDEV/Scene/Avatar.unity
-    guid: 239e7cd02dc5fab4f90cae180094cd8b
   - enabled: 1
     path: Assets/Game/Credits/3_Demo/Credits.unity
     guid: 2a5e14e1f6e8c004892db16c0835d9dc

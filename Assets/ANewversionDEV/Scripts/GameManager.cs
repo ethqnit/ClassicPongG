@@ -19,9 +19,8 @@ public class GameManager : MonoBehaviour
     public AudioSource P1audioSource;
     public AudioSource P2audioSource;
     public BallControl Script;
-    public EnemyFollow ENF;
-    public EnemyFollow2 ENF2;
-  
+    public EnemyFollowScript EMF;
+    //public EnemyFollowScript ENF;
     public TopDown topDown;
     public GameObject Winner1;
     public GameObject Winner2;
@@ -74,8 +73,7 @@ public class GameManager : MonoBehaviour
           Colorchanger.One();
            Script.str = 0.06f;
            Script.str2 = 0.05f;
-            ENF.speed = 780f;
-            ENF2.speed = 620f;
+         EMF.VitesseEnnemi = 400;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(true);//Set
                 L3.gameObject.SetActive(false);
@@ -92,8 +90,7 @@ public class GameManager : MonoBehaviour
           Colorchanger.Two();
             Script.str = 0.065f;
             Script.str2 = 0.055f;
-            ENF.speed = 800f;
-            ENF2.speed = 680f;
+           EMF.VitesseEnnemi = 450;
              L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(true);//Set
@@ -112,8 +109,7 @@ public class GameManager : MonoBehaviour
           PlayerPrefs.SetInt("Avatar", avtIndx);
           Script.str = 0.075f;
             Script.str2 = 0.058f;
-             ENF.speed = 900f;
-            ENF2.speed = 750f;
+            EMF.VitesseEnnemi = 500;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(false);
@@ -132,8 +128,7 @@ public class GameManager : MonoBehaviour
           Colorchanger.Four();
            Script.str = 0.075f;
             Script.str2 = 0.060f;
-            ENF.speed = 950f;
-            ENF2.speed = 800f;
+          EMF.VitesseEnnemi = 550;
             L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false); 
                 L3.gameObject.SetActive(false);
@@ -152,8 +147,7 @@ public class GameManager : MonoBehaviour
           Colorchanger.Five();
            Script.str = 0.080f;
             Script.str2 = 0.070f;
-            ENF.speed = 1000f;
-            ENF2.speed = 890f;
+          EMF.VitesseEnnemi = 600;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(false);
@@ -170,8 +164,7 @@ public class GameManager : MonoBehaviour
             Colorchanger.Six();
            Script.str = 0.080f;
             Script.str2 = 0.075f;
-            ENF.speed = 1080f;
-            ENF2.speed = 920f;
+           EMF.VitesseEnnemi = 650;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(false);
@@ -187,8 +180,7 @@ public class GameManager : MonoBehaviour
             Colorchanger.Seven();
            Script.str = 0.090f;
             Script.str2 = 0.075f;
-            ENF.speed = 1150f;
-            ENF2.speed = 1000f;
+           EMF.VitesseEnnemi = 700;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(false);
@@ -205,8 +197,7 @@ public class GameManager : MonoBehaviour
             Colorchanger.Eight();
            Script.str = 0.090f;
             Script.str2 = 0.080f;
-            ENF.speed = 1150f;
-            ENF2.speed = 1000f;
+          EMF.VitesseEnnemi = 750;
               L1.gameObject.SetActive(false);
                L2.gameObject.SetActive(false);
                 L3.gameObject.SetActive(false);
@@ -220,8 +211,7 @@ public class GameManager : MonoBehaviour
               break;
           case 9:
             Colorchanger.Nine();
-            ENF.speed = 1200f;
-            ENF2.speed = 1100f;
+          EMF.VitesseEnnemi = 800;
            Script.str = 0.090f;
             Script.str2 = 0.085f;
               L1.gameObject.SetActive(false);
@@ -238,8 +228,7 @@ public class GameManager : MonoBehaviour
               break;
           case 10:
           Colorchanger.Ten();
-          ENF.speed = 1290f;
-          ENF2.speed = 1150f;
+        EMF.VitesseEnnemi = 850;
           avtIndx = 4;
           PlayerPrefs.SetInt("Avatar", avtIndx);
           Script.str = 0.095f;

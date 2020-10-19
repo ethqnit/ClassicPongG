@@ -311,6 +311,8 @@ GameObject:
   - component: {fileID: 190157252}
   - component: {fileID: 190157253}
   - component: {fileID: 190157254}
+  - component: {fileID: 190157256}
+  - component: {fileID: 190157255}
   m_Layer: 0
   m_Name: P1Goal
   m_TagString: Untagged
@@ -326,11 +328,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190157249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 0.068, z: 9.980901}
+  m_LocalPosition: {x: 13.73, y: 0, z: 9.980901}
   m_LocalScale: {x: 0.5, y: 10.594257, z: 1}
   m_Children: []
   m_Father: {fileID: 1850980823}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &190157251
 SpriteRenderer:
@@ -448,6 +450,43 @@ MonoBehaviour:
   Player2: {fileID: 3340292988913911348}
   p: 0
   audioSource: {fileID: 0}
+--- !u!114 &190157255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190157249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 1
+--- !u!114 &190157256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190157249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 190157255}
+  viewIdField: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &273497126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1105,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.521
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1703,6 +1742,8 @@ GameObject:
   - component: {fileID: 1130381419}
   - component: {fileID: 1130381420}
   - component: {fileID: 1130381421}
+  - component: {fileID: 1130381423}
+  - component: {fileID: 1130381422}
   m_Layer: 0
   m_Name: P2Goal
   m_TagString: Untagged
@@ -1769,11 +1810,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130381416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 0.068, z: 9.980901}
+  m_LocalPosition: {x: -13.73, y: 0, z: 9.980901}
   m_LocalScale: {x: 0.5, y: 10.594257, z: 1}
   m_Children: []
   m_Father: {fileID: 1850980823}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1130381419
 BoxCollider2D:
@@ -1840,6 +1881,43 @@ MonoBehaviour:
   P2: {fileID: 3340292988913911316}
   p: 0
   audioSource: {fileID: 0}
+--- !u!114 &1130381422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130381416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 1
+--- !u!114 &1130381423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130381416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 1130381422}
+  viewIdField: 5
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1240550557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2749,8 +2827,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1130381418}
   - {fileID: 190157250}
+  - {fileID: 1130381418}
   - {fileID: 1528830681}
   m_Father: {fileID: 0}
   m_RootOrder: 4

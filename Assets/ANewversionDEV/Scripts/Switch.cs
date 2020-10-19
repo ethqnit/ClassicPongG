@@ -11,21 +11,6 @@ public class Switch : MonoBehaviour
  // your second script name 
 
 
- void OnTriggerEnter2D(Collider2D other) 
-    {
-        if (other.gameObject.CompareTag("Stopper2"))
-        {
-             (otherobj.GetComponent(scr) as MonoBehaviour).enabled = false;
-              (otherobj.GetComponent(scr2) as MonoBehaviour).enabled = true; 
-        }
-    }
-     void OnTriggerExit2D(Collider2D other) 
-    {
-        if (other.gameObject.CompareTag("Stopper2"))
-        {
-             (otherobj.GetComponent(scr) as MonoBehaviour).enabled = true; 
-             (otherobj.GetComponent(scr2) as MonoBehaviour).enabled = false; 
-        }
-    }
+//
 
 }

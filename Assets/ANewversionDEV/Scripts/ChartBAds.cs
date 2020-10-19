@@ -27,22 +27,15 @@ public class ChartBAds : MonoBehaviour
     public void ShowBanner()
     { 
    
-   var banner = AdSdk.Instance.CreateBanner();    
-   banner.ShowInPosition(BannerAd.BannerPosition.Bottom);
+   AdSdk.Instance.ShowDefaultAd();
    
 
     }
     public void HideBanner()
     {
-      var banner = AdSdk.Instance.CreateBanner();
-      if( banner.IsShownInPosition(BannerAd.BannerPosition.Bottom))
-      {
-         banner.Hide();
-      }
-     
-      
-     
-     {
+
+
+    {
 
      }
     }
