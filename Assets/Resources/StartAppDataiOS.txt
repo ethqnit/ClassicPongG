@@ -1,1 +1,2 @@
 applicationId=209270323
+returnAds=false
